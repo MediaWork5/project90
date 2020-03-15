@@ -1,0 +1,2644 @@
+/*********** starting the constant *************/ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+@font-face {
+    font-family: Kufyan-Arabic-Regular;
+    src: url(../fonts/Kufyan-Arabic-Regular.ttf);
+}
+body
+{
+    font-family: 'Kufyan-Arabic-Regular';
+    font-weight: normal;
+    font-style: normal;
+}
+a
+{
+    text-decoration: none !important;
+}
+input:focus,
+textarea:focus
+{
+    outline: none;
+}
+/*********** End the constant *************/
+/***********  *************/
+/***********  *************/
+/*********** starting header *************/
+header
+{
+    position: relative;
+    background-image: url(../images/main-background.png);
+}
+header .main-logo
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    top: 11%;    
+}
+header .shap1
+{
+    position: absolute;
+    width: 160px;
+    left: 6%;
+    top: 14%;    
+}
+header .shap2
+{
+    position: absolute;
+    bottom: 4%;
+    left: 0%;
+    width: 150px;    
+}
+header .shap3
+{
+    position: absolute;
+    right: 12%;
+    top: 29%;
+    width: 50px;    
+}
+header .shap4
+{
+    position: absolute;
+    right: 3%;
+    bottom: 13%;
+    width: 200px;    
+}
+header .container
+{
+    padding: 50px 0px;
+}
+header .container .nav-top > div a
+{
+    color: #000;
+    padding: 0px 5px;
+}
+header .container .nav-top input
+{
+    margin-top: 10px;
+    background-color: #cfcfcf;
+    border: none;
+    padding: 3px 15px;
+    border-radius: 20px;
+    color: #fff;    
+}
+header .container .header-images
+{
+    position: relative;
+    padding: 50px 0px;
+}
+header .container .header-images > img:nth-child(1)
+{
+    width: 65%;
+    margin: auto;
+    display: block;    
+}
+header .container .header-images > img:nth-child(2)
+{
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    width: 235px;
+}
+header .container .header-images > img:nth-child(3)
+{
+    position: absolute;
+    top: 6%;
+    left: 21.5%;
+    width: 150px;
+}
+header .container .header-images > img:nth-child(4)
+{
+    position: absolute;
+    top: 17%;
+    left: 29%;
+    width: 235px;
+}
+header .container .header-images > img:nth-child(5)
+{
+    position: absolute;
+    top: 52%;
+    left: 43.5%;
+    width: 150px;
+}
+header .container .header-images > img:nth-child(6)
+{
+    position: absolute;
+    top: 17%;
+    left: 51%;
+    width: 235px;
+}
+header .container .header-images > img:nth-child(7)
+{
+    position: absolute;
+    top: 6%;
+    left: 65.7%;
+    width: 150px;
+}
+header .container .header-images > img:nth-child(8)
+{
+    position: absolute;
+    top:17%;
+    left: 73%;
+    width: 235px;
+}
+header .container .links-bar
+{
+    margin-bottom: 0px;
+    text-align: center;
+}
+header .container .links-bar li
+{
+    list-style: none;
+    display: -webkit-inline-box;
+}
+header .container .links-bar li:not(:last-child):after
+{
+    content: " | ";
+    color: #01717f;
+}
+header .container .links-bar li a
+{
+    padding: 0px 20px;
+    color: #000;
+    transition: all .35s ease-in-out;
+}
+header .container .links-bar li a:hover
+{
+    background-color: #01717f;
+    color: #fff;
+}
+@media (max-width: 576px)
+{
+    header
+    {
+        overflow: hidden;
+    }
+    header .container .header-images > img:nth-child(1),
+    header .container .header-images > img:nth-child(2),
+    header .container .header-images > img:nth-child(3),
+    header .container .header-images > img:nth-child(4),
+    header .container .header-images > img:nth-child(5),
+    header .container .header-images > img:nth-child(6),
+    header .container .header-images > img:nth-child(7),
+    header .container .header-images > img:nth-child(8),
+    header .shap1,
+    header .shap2,
+    header .shap3,
+    header .shap4
+    {
+        display: none;
+    }
+    header .container .nav-top
+    {
+        margin-bottom: 100px;
+    }
+    header .main-logo
+    {
+        top: 37%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    header .container .header-images > img:nth-child(1),
+    header .container .header-images > img:nth-child(2),
+    header .container .header-images > img:nth-child(3),
+    header .container .header-images > img:nth-child(4),
+    header .container .header-images > img:nth-child(5),
+    header .container .header-images > img:nth-child(6),
+    header .container .header-images > img:nth-child(7),
+    header .container .header-images > img:nth-child(8),
+    header .shap1,
+    header .shap2,
+    header .shap3,
+    header .shap4
+    {
+        display: none;
+    }
+    header .container .nav-top
+    {
+        margin-bottom: 100px;
+    }
+    header .main-logo
+    {
+        top: 37%;
+    }
+    header .container .nav-top > div
+    {
+        text-align: center !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    header .container .header-images > img:nth-child(2)
+    {
+        top: 21%;
+        left: 6%;
+        width: 155px;
+    }
+    header .container .header-images > img:nth-child(3)
+    {
+        top: 12%;
+        left: 21%;
+        width: 100px;
+    }
+    header .container .header-images > img:nth-child(4)
+    {
+        top: 21%;
+        left: 29%;
+        width: 155px;
+    }
+    header .container .header-images > img:nth-child(5)
+    {
+        top: 52%;
+        left: 44%;
+        width: 100px;
+    }
+    header .container .header-images > img:nth-child(6)
+    {
+        top: 19%;
+        left: 51%;
+        width: 155px;
+    }
+    header .container .header-images > img:nth-child(7)
+    {
+        top: 8%;
+        left: 65.5%;
+        width: 100px;
+    }
+    header .container .header-images > img:nth-child(8)
+    {
+        top: 20%;
+        left: 73%;
+        width: 155px;
+    }
+    header .shap4
+    {
+        bottom: 22%;
+        width: 120px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    header .container .header-images > img:nth-child(2)
+    {
+        top: 21%;
+        left: 6%;
+        width: 200px;
+    }
+    header .container .header-images > img:nth-child(3)
+    {
+        top: 12%;
+        left: 21.5%;
+        width: 123px;
+    }
+    header .container .header-images > img:nth-child(4)
+    {
+        top: 21%;
+        left: 29%;
+        width: 200px;
+    }
+    header .container .header-images > img:nth-child(5)
+    {
+        top: 52%;
+        left: 44%;
+        width: 123px;
+    }
+    header .container .header-images > img:nth-child(6)
+    {
+        top: 19%;
+        left: 51%;
+        width: 200px;
+    }
+    header .container .header-images > img:nth-child(7)
+    {
+        top: 8%;
+        left: 66%;
+        width: 123px;
+    }
+    header .container .header-images > img:nth-child(8)
+    {
+        top: 20%;
+        left: 73%;
+        width: 200px;
+    }
+    header .shap4
+    {
+        bottom: 22%;
+        width: 120px;
+    }
+}
+/*********** End header *************/
+/***********  *************/
+/***********  *************/
+/*********** starting sale *************/
+.sale
+{
+    background: url('../images/sale-background.png');
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -o-background-size:contain;
+    background-size:contain;
+    background-repeat: round;
+    height: 500px;
+    width: 100% !important;
+}
+.sale .row
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.sale .row > div h1
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    font-family: sans-serif;
+    left: 25%;
+    top: 40%;
+}
+.sale .row > div span
+{
+    position: absolute;
+    bottom: 3%;
+    left: 38%;
+    color: #01717f;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 60px 7px 60px;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+.sale .row > div > img
+{
+    width: 400px;
+    margin-top: 85px;
+    margin-left: 70px;
+}
+.sale .row > div h2
+{
+    background-color: #01717f;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    padding: 5px 60px;
+    font-family: sans-serif;
+    border-radius: 0px 0px 0px 80px;
+    right: 0px;
+    top: 0px;
+
+}
+.sale .row > div > div
+{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+.sale .row > div > div h3
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.sale .row > div > div a
+{
+    background-color: #01717f;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 24px 5px 70px;
+}
+.sale .row > div > div a img
+{
+    width: 20px;
+    margin-left: 25px;
+}
+@media (max-width: 576px)
+{
+    .sale
+    {
+        background: url('../images/sale-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 700px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .sale .row > div > img
+    {
+        width: 250px;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    .sale .row > div h2
+    {
+        font-size: 50px;
+        padding: 5px 40px;
+        border-radius: 0px 0px 0px 40px;
+        right: 0px;
+        top: -333px;
+    }
+    .sale .row > div > div
+    {
+        bottom: -200px;
+        right: 10%;
+    }
+    .sale .row > div h1
+    {
+        font-size: 60px;
+    }
+    .sale .row > div span
+    {
+        bottom: 7%;
+        left: 30%;
+        font-size: 23px;
+        padding: 5px 50px 7px 50px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .sale
+    {
+        background: url('../images/sale-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 700px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .sale .row > div > img
+    {
+        width: 250px;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    .sale .row > div h2
+    {
+        font-size: 50px;
+        padding: 5px 40px;
+        border-radius: 0px 0px 0px 40px;
+        right: 0px;
+        top: -333px;
+    }
+    .sale .row > div > div
+    {
+        bottom: -200px;
+        right: 10%;
+    }
+    .sale .row > div h1
+    {
+        font-size: 60px;
+        left: 13%;
+    }
+    .sale .row > div span
+    {
+        bottom: 7%;
+        left: 18%;
+        font-size: 23px;
+        padding: 5px 50px 7px 50px;
+    }
+}
+/*********** Ends sale *************/
+/***********  *************/
+/***********  *************/
+/*********** stating home-offers *************/
+.home-offers
+{
+    background-image: url(../images/main-background.png);
+}
+.home-offers .container
+{
+    padding: 50px 0px;
+}
+.home-offers .container .row
+{
+    
+}
+.home-offers .container .row > div
+{
+    padding: 7px;
+}
+.home-offers .offer-box
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.home-offers .offer-box > img
+{
+    width: 100%;
+}
+.home-offers .offer-box .forborder
+{
+    width: 90%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #d3ac4a;
+}
+.home-offers .offer-box .overlay
+{
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    transition: all .35s ease-in-out;
+}
+.home-offers .offer-box:hover .overlay
+{
+    bottom: 0px;
+}
+.home-offers .offer-box .overlay img
+{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+.home-offers .offer-box .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+    line-height: 1;
+}
+.home-offers .offer-box .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #d3ac4a;
+    bottom: 14px;
+    right: 17px;
+    padding: 0px 10px 2px 10px;
+}
+.home-offers .offer-largebox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.home-offers .offer-largebox > img
+{
+    width: 100%;
+    height: 100%;
+}
+.home-offers .offer-largebox .forborder
+{
+    width: 95%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #d3ac4a;
+}
+.home-offers .offer-largebox .overlay
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.home-offers .offer-largebox:hover .overlay
+{
+    opacity: 1;
+}
+.home-offers .offer-largebox .overlay img
+{
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+}
+.home-offers .offer-largebox .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    line-height: 1;
+    font-size: 40px;
+}
+.home-offers .offer-largebox .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #01717f;
+    bottom: 14px;
+    right: 17px;
+    padding: 3px 20px 5px 20px;
+}
+.home-offers .offer-largebox .overlay h2
+{
+    color: #fff;
+    background-color: #d3ac4a;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;    
+}
+@media (max-width: 576px)
+{
+    .home-offers
+    {
+        overflow: hidden;
+    }
+    .home-offers .container
+    {
+        padding: 50px 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .home-offers .offer-box .overlay span
+    {
+        right: 72px;
+    }
+    .home-offers .offer-largebox .overlay img
+    {
+        width: 175px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .home-offers .offer-box .overlay span
+    {
+        right: 72px;
+    }
+    .home-offers .offer-largebox .overlay img
+    {
+        width: 175px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .home-offers .offer-largebox .overlay h2
+    {
+        width: 80px;
+        height: 80px;
+        line-height: 70px;
+    }
+}
+/*********** End home-offers *************/
+/***********  *************/
+/***********  *************/
+/*********** starting tablelamp *************/
+.tablelamp
+{
+    background: url('../images/lamp-background.png');
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -o-background-size:contain;
+    background-size:contain;
+    background-repeat: round;
+    height: 500px;
+    width: 100% !important;
+}
+.tablelamp .container
+{
+    padding: 15px 0px;
+}
+.tablelamp .container .lamp-shap1
+{
+    position: absolute;
+    width: 130px;
+    top: -6%;
+    left: -4%;
+}
+.tablelamp .container .row > div:nth-child(2) h4
+{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    color: #fff;
+}
+.tablelamp .container .row > div:nth-child(2) a
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #d3ac4a;
+    margin: auto;
+    padding: 5px 150px;
+    transition: all .35s ease-in-out;
+}
+.tablelamp .container .row > div:nth-child(2) a:hover
+{
+    background-color: #d3ac4a;
+}
+.tablelamp .container .lamp-shap2
+{
+    position: absolute;
+    width: 110px;
+    right: -15%;
+    top: -20%;
+}
+.tablelamp .container .row > div:nth-child(1) h3
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 50px;
+}
+.tablelamp .container .row > div:nth-child(1) .row > div > div
+{
+    margin-bottom: 15px;
+}
+.tablelamp .container .row > div:nth-child(1) .row > div img
+{
+    width: 100%;
+}
+@media (max-width: 576px)
+{
+    .tablelamp
+    {
+        background: url('../images/lamp-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 700px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .tablelamp .container .lamp-shap1
+    {
+        width: 100px;
+    }
+    .tablelamp .container .row > div:nth-child(1) h3
+    {
+        margin-bottom: 55px;
+    }
+    .tablelamp .container .row > div:nth-child(2) h4
+    {
+        margin-top: 50px;
+    }
+    .tablelamp .container .lamp-shap2
+    {
+        right: 0%;
+        top: -11%;
+    }
+    .tablelamp .container .row > div:nth-child(2) a
+    {
+        padding: 5px 100px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .tablelamp
+    {
+        background: url('../images/lamp-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 800px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .tablelamp .container .lamp-shap1
+    {
+        width: 100px;
+    }
+    .tablelamp .container .row > div:nth-child(1) h3
+    {
+        margin-bottom: 55px;
+    }
+    .tablelamp .container .row > div:nth-child(2) h4
+    {
+        margin-top: 50px;
+    }
+    .tablelamp .container .lamp-shap2
+    {
+        right: 0%;
+        top: -11%;
+    }
+    .tablelamp .container .row > div:nth-child(2) a
+    {
+        padding: 5px 100px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .tablelamp .container .row > div:nth-child(1) h3
+    {
+        margin-bottom: 80px;
+    }
+    .tablelamp .container .lamp-shap1
+    {
+        width: 115px;
+    }
+    .tablelamp .container .row > div:nth-child(2) a
+    {
+        padding: 4px 80px;
+    }
+    .tablelamp .container .row > div:nth-child(2) h4
+    {
+        font-size: 21px;
+    }
+}
+/*********** End tablelamp *************/
+/***********  *************/
+/***********  *************/
+/*********** starting tabletop *************/
+.tabletop
+{
+    background-image: url(../images/main-background.png);
+}
+.tabletop .container
+{
+    padding: 70px 0px 50px 0px;
+}
+.tabletop .container > .row > div:nth-child(1) img
+{
+    position: absolute;
+    width: 150px;
+    top: 17%;
+    left: -5%;
+}
+.tabletop .container .row > div:nth-child(1) h4
+{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.tabletop .container .row > div:nth-child(1) a
+{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #d3ac4a;
+    margin: auto;
+    padding: 5px 150px;
+    transition: all .35s ease-in-out;
+}
+.tabletop .container .row > div:nth-child(1) a:hover
+{
+    background-color: #d3ac4a;
+    color: #fff;
+}
+.tabletop .container .row > div:nth-child(2) > img
+{
+    position: absolute;
+    width: 150px;
+    right: -3%;
+    top: -11%;
+}
+.tabletop .container .row > div:nth-child(2) h3
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 50px;
+}
+.tabletop .container .row > div:nth-child(2) .row > div > div
+{
+    margin-bottom: 33px;
+}
+.tabletop .container .row > div:nth-child(2) .row > div img
+{
+    width: 100%;
+}
+@media (max-width: 576px)
+{
+    .tabletop
+    {
+        overflow: hidden;
+    }
+    .tabletop .container .row > div:nth-child(1) h4
+    {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .tabletop .container > .row > div:nth-child(1) img
+    {
+        width: 120px;
+        top: -23%;
+        left: 2%;
+    }
+    .tabletop .container .row > div:nth-child(1) a
+    {
+        padding: 5px 100px;
+    }
+    .tabletop .container .row > div:nth-child(2) h3
+    {
+        margin-top: 100px;
+    }
+    .tabletop .container .row > div:nth-child(2) > img
+    {
+        width: 100px;
+        right: 6%;
+        top: 17%;
+    }
+    .tabletop .container .row > div:nth-child(2) .row > div > div
+    {
+        margin-bottom: 22px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .tabletop .container .row > div:nth-child(1) h4
+    {
+        margin-top: 0px;
+    }
+    .tabletop .container > .row > div:nth-child(1) img
+    {
+        top: -33%;
+        left: -1%;
+    }
+    .tabletop .container .row > div:nth-child(2) h3
+    {
+        margin-top: 70px;
+    }
+    .tabletop .container .row > div:nth-child(2) > img
+    {
+        width: 100px;
+        right: 4%;
+        top: 9%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .tabletop .container .row > div:nth-child(2) > img
+    {
+        width: 100px;
+        right: 4%;
+        top: -7%;
+    }
+    .tabletop .container .row > div:nth-child(1) h4
+    {
+        font-size: 21px;
+        margin-top: 120px;
+    }
+    .tabletop .container .row > div:nth-child(1) a
+    {
+        padding: 4px 80px;
+    }
+}
+/*********** End tabletop *************/
+/***********  *************/
+/***********  *************/
+/*********** starting other *************/
+.other
+{
+    background-image: url(../images/main-background.png);
+    overflow: hidden;
+}
+.other .overlay
+{
+    background: rgba(0,0,0,.05);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.other .container
+{
+    padding: 120px 0px 70px 0px;
+    position: relative;
+}
+.other .container .shap3
+{
+    position: absolute;
+    right: -33%;
+    bottom: -35%;
+    width: 180px;
+}
+.other .container h3
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.other .container .row > div
+{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.other .container .row > div > div
+{
+    width: 100%;
+}
+.other .container .row > div > div img
+{
+    width: 100%;
+}
+.other > img
+{
+    position: absolute;
+}
+.other > img:nth-of-type(1)
+{
+    top: 0%;
+    width: 150px;
+    left: 0%;    
+}
+.other > img:nth-of-type(2)
+{
+    top: 11%;
+    right: 5%;   
+}
+@media (max-width: 576px)
+{
+    .other > img:nth-of-type(2)
+    {
+        top: 8%;
+        right: 5%;
+    }
+    .other .container .shap3
+    {
+        position: absolute;
+        right: 0%;
+        bottom: -35%;
+        width: 100px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .other > img:nth-of-type(2)
+    {
+        top: 4%;
+    }
+}
+/*********** End other *************/
+/***********  *************/
+/***********  *************/
+/*********** starting footer *************/
+footer
+{
+    background-color: #242424;
+}
+footer .logos
+{
+    padding: 0px 50px;
+    border-bottom: 1px solid #a8a8a8;    
+}
+footer .logos .row > div
+{
+    
+}
+footer .logos .row > div img
+{
+    width: 100%;
+}
+footer .container
+{
+    padding: 70px 0px;
+}
+footer .container .row > div
+{
+    border-right: 1px solid #a8a8a8;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+footer .container .row > div:nth-child(1),
+footer .container .row > div:nth-child(6)
+{
+    border-right: none;
+}
+footer .container .row > div img
+{
+    width: 130px;
+}
+footer .container .row > div h5
+{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+footer .container .row > div a
+{
+    display: block;
+    color: #ddd;
+    font-size: 14px;
+    margin-bottom: 6px;
+    letter-spacing: .5px;
+    transition: all .35s ease-in-out;
+}
+footer .container .row > div a:hover
+{
+    color: #d3ac4a;
+}
+footer .container .row > div p
+{
+    color: #fff;
+    font-size: 12px;
+}
+footer .container .row > div i
+{
+    margin-right: 15px;
+}
+footer > ul
+{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+footer > ul li
+{
+    display: -webkit-inline-box;
+}
+footer > ul li a
+{
+    color: #a7a7a7;
+    padding: 6px 15px;
+    font-size: 14px;
+    transition: all .35s ease-in-out;
+}
+footer > ul li a:hover
+{
+    color: #d3ac4a;
+}
+@media (max-width: 576px)
+{
+    footer .logos .row > div
+    {
+        margin: auto;
+    }
+    footer .container .row > div:nth-child(2n+1)
+    {
+        border-right: 1px solid #a8a8a8 !important;
+    }
+    footer .container .row > div:nth-child(2n+2)
+    {
+        border-right: none !important;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    footer .logos .row > div
+    {
+        margin: auto;
+    }
+    footer .container .row > div:nth-child(2n+1)
+    {
+        border-right: 1px solid #a8a8a8 !important;
+    }
+    footer .container .row > div:nth-child(2n+2)
+    {
+        border-right: none !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    footer .container .row > div
+    {
+        border-right: 1px solid #a8a8a8 !important;
+    }
+    footer .container .row > div:nth-child(3n+3)
+    {
+        border-right: none !important;
+    }
+}
+/*********** End footer *************/
+/***********  *************/
+/***********  *************/
+/******************* starting product-details page ******************/
+/*********** starting sale-products *************/
+.sale-products
+{
+    background: url('../images/sale-products-background.png');
+    -webkit-background-size:contain;
+    -moz-background-size:contain;
+    -o-background-size:contain;
+    background-size:contain;
+    background-repeat: round;
+    height: 500px;
+    width: 100% !important;
+}
+.sale-products .row
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.sale-products .row > div h1
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    font-family: sans-serif;
+    left: 13%;
+    top: 40%;
+}
+.sale-products .row > div span
+{
+    position: absolute;
+    bottom: 3%;
+    left: 38%;
+    color: #01717f;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 60px 7px 60px;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+.sale-products .row > div > img
+{
+    width: 400px;
+    margin-top: 85px;
+    margin-left: 70px;
+}
+.sale-products .row > div h2
+{
+    background-color: #01717f;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    padding: 5px 60px;
+    font-family: sans-serif;
+    border-radius: 0px 0px 0px 80px;
+    right: 0px;
+    top: 0px;
+
+}
+.sale-products .row > div > div
+{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+}
+.sale-products .row > div > div h3
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.sale-products .row > div > div a
+{
+    background-color: #01717f;
+    color: #fff;
+    font-size: 25px;
+    padding: 0px 24px 5px 70px;
+}
+.sale-products .row > div > div a img
+{
+    width: 20px;
+    margin-left: 25px;
+}
+@media (max-width: 576px)
+{
+    .sale-products 
+    {
+        background: url('../images/sale-products-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 700px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .sale-products .row > div > img
+    {
+        width: 250px;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    .sale-products .row > div h2
+    {
+        font-size: 50px;
+        padding: 5px 40px;
+        border-radius: 0px 0px 0px 40px;
+        right: 0px;
+        top: -333px;
+    }
+    .sale-products .row > div > div
+    {
+        bottom: -200px;
+        right: 10%;
+    }
+    .sale-products .row > div h1
+    {
+        font-size: 60px;
+    }
+    .sale-products .row > div span
+    {
+        bottom: 7%;
+        left: 30%;
+        font-size: 23px;
+        padding: 5px 50px 7px 50px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .sale-products 
+    {
+        background: url('../images/sale-products-background.png');
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 700px;
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .sale-products .row > div > img
+    {
+        width: 250px;
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    .sale-products .row > div h2
+    {
+        font-size: 50px;
+        padding: 5px 40px;
+        border-radius: 0px 0px 0px 40px;
+        right: 0px;
+        top: -333px;
+    }
+    .sale-products .row > div > div
+    {
+        bottom: -200px;
+        right: 10%;
+    }
+    .sale-products .row > div h1
+    {
+        font-size: 60px;
+        left: 13%;
+    }
+    .sale-products .row > div span
+    {
+        bottom: 7%;
+        left: 18%;
+        font-size: 23px;
+        padding: 5px 50px 7px 50px;
+    }
+}
+/*********** Ends sale-products *************/
+/***********  *************/
+/***********  *************/
+/*********** starting main-details *************/
+.main-details
+{
+    background-image: url(../images/main-background.png);
+}
+.main-details .container
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.main-details .container .cod .left-cod .row
+{
+    width: 100%;
+    margin: auto;
+}
+.main-details .container .cod .left-cod .row > div
+{
+    padding: 0px 3px;
+}
+.main-details .container .cod .left-cod img
+{
+    width: 100%;
+    margin-bottom: 10px;    
+}
+.main-details .container .cod .left-cod .row > div img
+{
+    border: 2px solid #d5d5d5;
+    border-radius: 2px;
+}
+.main-details .container .cod .right-cod > div:nth-child(1) p
+{
+    color: #4d4c4c;
+    font-size: 24px;
+    margin-top: 27px;
+}
+.main-details .container .cod .right-cod > div:nth-child(2) span
+{
+    padding: 10px 20px 15px 0px;
+    display: -webkit-inline-box;    
+}
+.main-details .container .cod .right-cod > div:nth-child(3)
+{
+    margin-bottom: 15px;
+}
+.main-details .container .cod .right-cod > div:nth-child(3) span:nth-of-type(1)
+{
+    background-color: #01717f;
+    padding: 0px 35px;
+    color: #fff;
+    font-size: 17px;
+}
+.main-details .container .cod .right-cod > div:nth-child(3) span:nth-of-type(2)
+{
+    padding: 0px 35px;
+    color: darkgray;
+    font-size: 20px;
+}
+.main-details .container .cod .right-cod > div:nth-child(4) span
+{
+    font-size: 20px;
+}
+.main-details .container .cod .right-cod > div:nth-child(5) h5
+{
+    margin-bottom: 20px;
+}
+.main-details .container .cod .right-cod > div:nth-child(6) img
+{
+    width: 50px;
+    margin-bottom: 5px;
+}
+.main-details .container .cod .right-cod > div:nth-child(7)
+{
+    margin-top: 50px;
+}
+.main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(1)
+{
+    background-color: #01717f;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(2)
+{
+    background-color: #caa054;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+}
+.main-details .container .desciption h3
+{
+    color: #01717f;
+}
+.main-details .container .desciption p
+{
+    color: #4d4c4c;
+}
+.main-details .container .details-offers > .row
+{
+    width: 100%;
+    margin: auto;
+}
+.main-details .offer-largebox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main-details .offer-largebox > img
+{
+    width: 100%;
+    height: 100%;
+}
+.main-details .offer-largebox .forborder
+{
+    width: 95%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #d3ac4a;
+}
+.main-details .offer-largebox .overlay
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.main-details .offer-largebox:hover .overlay
+{
+    opacity: 1;
+}
+.main-details .offer-largebox .overlay img
+{
+    width: 110px;
+    position: absolute;
+    bottom: 0;
+}
+.main-details .offer-largebox .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    line-height: 1;
+    font-size: 33px;
+}
+.main-details .offer-largebox .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #01717f;
+    bottom: 14px;
+    right: 17px;
+    padding: 3px 20px 5px 20px;
+}
+.main-details .offer-largebox .overlay h2
+{
+    color: #fff;
+    background-color: #d3ac4a;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;  
+}
+.main-details .under-box h5
+{
+    font-size: 17px;
+    margin-bottom: 0px;    
+}
+.main-details .under-box > div:nth-of-type(1)
+{
+    margin-bottom: 7px;
+}
+.main-details .under-box > div span:nth-of-type(1)
+{
+    background-color: #fa1515;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.main-details .under-box > div span:nth-of-type(2)
+{
+    background-color: #01717f;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+@media (max-width: 576px)
+{
+    .main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(1),
+    .main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(2)
+    {
+        width: 145px;
+    }
+    .main-details .container .details-offers > .row > div
+    {
+        margin-bottom: 100px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(1),
+    .main-details .container .cod .right-cod > div:nth-child(7) button:nth-of-type(2)
+    {
+        width: 145px;
+    }
+    .main-details .container .cod .right-cod > div:nth-child(1) p
+    {
+        font-size: 19px;
+    }
+    .main-details .container .cod .right-cod > div:nth-child(7)
+    {
+        margin-top: 10px;
+    }
+    .main-details .container .details-offers > .row > div
+    {
+        margin-bottom: 100px;
+    }
+    .main-details .offer-largebox .overlay img
+    {
+        width: 135px;
+    }
+}
+/*********** End main-details *************/
+/***********  *************/
+/***********  *************/
+/*********** starting related *************/
+.related
+{
+    background-image: url(../images/main-background.png);
+}
+.related > .overlay
+{
+    background: rgba(0,0,0,.1);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0ox;
+}
+.related .container
+{
+    padding: 40px 0px;
+}
+.related .container h3
+{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.related .container .myslider-box
+{
+    padding: 7px;
+}
+.related .offer-box
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.related .offer-box > img
+{
+    width: 100%;
+}
+.related .offer-box .forborder
+{
+    width: 90%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #d3ac4a;
+}
+.related .offer-box .overlay
+{
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
+    transition: all .35s ease-in-out;
+}
+.related .offer-box:hover .overlay
+{
+    bottom: 0px;
+}
+.related .offer-box .overlay img
+{
+    width: 220px;
+    position: absolute;
+    bottom: 0;
+}
+.related .offer-box .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    bottom: -13px;
+    left: 20px;
+    line-height: 1;
+}
+.related .offer-box .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #d3ac4a;
+    bottom: 14px;
+    right: 17px;
+    padding: 0px 10px 2px 10px;
+}
+.related .slick-prev:before, .related .slick-next:before
+{
+    color: #01717f !important;
+}
+@media (max-width: 576px)
+{
+    .related .slick-prev:before, .related .slick-next:before
+    {
+        display: none !important;
+    }
+}
+/*********** End related *************/
+/******************* End product-details page ******************/
+/******************* starting inner page **********************/
+/*********** starting inner-offers *************/
+.inner-offers
+{
+    background-image: url(../images/main-background.png);
+}
+.inner-offers .container
+{
+    padding: 50px 0px;
+}
+.inner-offers .container > .row
+{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.inner-offers .offer-largebox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inner-offers .offer-largebox > img
+{
+    width: 100%;
+    height: 100%;
+}
+.inner-offers .offer-largebox .forborder
+{
+    width: 95%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #d3ac4a;
+}
+.inner-offers .offer-largebox .overlay
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.inner-offers .offer-largebox:hover .overlay
+{
+    opacity: 1;
+}
+.inner-offers .offer-largebox .overlay img
+{
+    width: 110px;
+    position: absolute;
+    bottom: 0;
+}
+.inner-offers .offer-largebox .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    line-height: 1;
+    font-size: 33px;
+}
+.inner-offers .offer-largebox .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #01717f;
+    bottom: 14px;
+    right: 17px;
+    padding: 3px 20px 5px 20px;
+}
+.inner-offers .offer-largebox .overlay h2
+{
+    color: #fff;
+    background-color: #d3ac4a;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;  
+}
+.inner-offers .under-box h5
+{
+    font-size: 17px;
+    margin-bottom: 0px;    
+}
+.inner-offers .under-box > div:nth-of-type(1)
+{
+    margin-bottom: 7px;
+}
+.inner-offers .under-box > div span:nth-of-type(1)
+{
+    background-color: #fa1515;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.inner-offers .under-box > div span:nth-of-type(2)
+{
+    background-color: #01717f;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.inner-offers .special-inner-offer .offer-largebox .overlay img
+{
+    width: auto;
+    position: absolute;
+    bottom: 0;
+}
+.inner-offers .special-inner-offer .offer-largebox .overlay h3
+{
+    color: #fff;
+    position: absolute;
+    top: 75%;
+    left: 30px;
+    line-height: 1;
+    font-size: 33px;
+}
+.inner-offers .special-inner-offer .offer-largebox .overlay span
+{
+    position: absolute;
+    color: #fff;
+    background-color: #d3ac4a;
+    bottom: 9%;
+    right: 45%;
+    padding: 3px 20px 5px 20px;
+}
+@media (max-width: 576px)
+{
+    .inner-offers .container > .row > div
+    {
+        margin-bottom: 100px;
+    }
+    .inner-offers .offer-largebox .overlay img
+    {
+        width: 135px;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay img
+    {
+        width: 100%;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay span
+    {
+        bottom: 10%;
+        right: 20%;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay h3
+    {
+        top: 65%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .inner-offers .container > .row > div
+    {
+        margin-bottom: 100px;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay img
+    {
+        width: 100%;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay span
+    {
+        bottom: 10%;
+        right: 20%;
+    }
+    .inner-offers .special-inner-offer .offer-largebox .overlay h3
+    {
+        top: 65%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .inner-offers .offer-largebox .overlay img
+    {
+        width: 90px;
+    }
+    .inner-offers .offer-largebox .overlay h2
+    {
+        width: 55px;
+        height: 55px;
+        line-height: 45px;
+        font-size: 25px;
+    }
+    .inner-offers .offer-largebox .overlay span
+    {
+        right: 0px;
+    }
+}
+/*********** End inner-offers *************/
+/******************* End inner page **********************/
+/******************* start contact page ******************/
+/*********** starting contact *************/
+.contact
+{
+    background-image: url(../images/main-background.png);
+    padding: 50px 0px;
+    position: relative;
+}
+.contact .container
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 15px;
+    padding: 70px 40px;    
+}
+.contact .container h3
+{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    background-image: url(../images/main-background.png);
+    width: fit-content;
+    padding: 0px 5px;    
+}
+.contact .container .row > div
+{
+    
+}
+.contact .container .row > div:nth-child(1)
+{
+    
+}
+.contact .container .row > div:nth-child(1) > div
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact .container .row > div:nth-child(1) > div > img
+{
+    width: 280px;
+}
+.contact .container .row > div:nth-child(1) > div p
+{
+    font-size: 20px;
+}
+.contact .container .row > div:nth-child(1) > div p img
+{
+    margin-right: 10px;
+}
+.contact .container .row > div:nth-child(1) > div a
+{
+    display: block;
+    margin-bottom: 15px;
+    color: #000;
+}
+.contact .container .row > div:nth-child(1) > div a img
+{
+    margin-right: 10px;
+    width: 35px;
+}
+.contact form
+{
+    padding: 0px 50px;
+}
+.contact form input[type=submit]
+{
+    width: fit-content;
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #2688a1;
+    color: #fff;
+    padding: 8px 70px;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+.contact form input[type=submit]:hover
+{
+    background-color: #60bfd7;
+}
+.contact form input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.contact form textarea
+{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    border-radius: 5px;    
+}
+@media (max-width: 576px)
+{
+    .contact form
+    {
+        padding: 0px;
+    }
+    .contact .container
+    {
+        padding: 70px 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .contact form
+    {
+        padding: 0px;
+    }
+    .contact .container
+    {
+        padding: 70px 20px;
+    }
+}
+/*
+@media (min-width: 577px) and (max-width: 768px)
+
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End contact *************/
+/******************* End contact page ******************/
+/*********** start login and register page *************/
+/*********** starting login-register *************/
+.login-register
+{
+    background-image: url(../images/main-background.png);
+    padding: 50px 0px;
+    position: relative;
+}
+.login-register .container
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 15px;
+    padding: 70px 40px;    
+}
+.login-register .container h3
+{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    background-image: url(../images/main-background.png);
+    width: fit-content;
+    padding: 0px 5px;    
+}
+.login-register .container h4
+{
+    
+}
+.login-register .container > .row > div
+{
+    
+}
+.login-register .container > .row > div:nth-child(1)
+{
+    background-color: #6bb3c9;
+    margin-right: 65px;
+    position: relative;
+    padding: 50px 30px 30px 30px;
+    border-radius: 20px;
+}
+.login-register .container > .row > div:nth-child(1) i
+{
+    color: #fff;
+    background-color: #6bb3c9;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 5px solid #f7f7f7;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .35s ease-in-out;
+}
+.login-register .container > .row > div:nth-child(1):hover i
+{
+    border: 5px solid #6bb3c9;
+}
+.login-register .container > .row > div:nth-child(1) h4
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.login-register .login-user-icon
+{
+    position: absolute;
+    top: 31%;
+    width: 20px;
+    left: 12%;
+}
+.login-register .login-password-icon
+{
+    position: absolute;
+    top: 47%;
+    width: 20px;
+    left: 12%;
+}
+.login-register .container > .row > div:nth-child(1) form
+{
+    
+}
+.login-register .container > .row > div:nth-child(1) form input[type=text],
+.login-register .container > .row > div:nth-child(1) form input[type=email]
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px 8px 40px;
+    border-radius: 5px;
+}
+.login-register .container > .row > div:nth-child(1) form input[type=submit]
+{
+    background-color: #2688a1;
+    width: fit-content;
+    border: none;
+    padding: 8px 80px;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+.login-register .container > .row > div:nth-child(1) .row input[type=checkbox]
+{
+    margin-right: 5px;
+}
+.login-register .container > .row > div:nth-child(1) .row a
+{
+    color: #000;
+}
+.login-register .container > .row > div:nth-child(2)
+{
+    background-color: #6bb3c9;
+    padding: 30px;
+    border-radius: 20px;
+}
+.login-register .container > .row > div:nth-child(2) i
+{
+    
+}
+.login-register .container > .row > div:nth-child(2) h4
+{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.login-register .container > .row > div:nth-child(2) form
+{
+    
+}
+.login-register .container > .row > div:nth-child(2) form input[type=submit]
+{
+    background-color: #2688a1;
+    color: #fff;
+    border: none;
+    width: fit-content;
+    padding: 8px 60px;
+    float: right;
+}
+.login-register .container > .row > div:nth-child(2) form input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+@media (max-width: 576px)
+{
+    .login-register .container > .row > div:nth-child(1)
+    {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .login-register .container > .row > div:nth-child(1) .row > div
+    {
+        padding: 0px;
+    }
+    .login-register .login-user-icon
+    {
+        top: 33%;
+    }
+    .login-register .login-password-icon
+    {
+        top: 50%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .login-register .container > .row > div:nth-child(1)
+    {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .login-register .container > .row > div:nth-child(1) .row > div
+    {
+        text-align: center;
+    }
+    .login-register .login-user-icon
+    {
+        top: 33%;
+        left: 8%
+    }
+    .login-register .login-password-icon
+    {
+        top: 50%;
+        left: 8%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .login-register .container > .row > div:nth-child(1)
+    {
+        margin-right: 40px;
+        padding: 50px 10px 10px 10px;
+    }
+    .login-register .container > .row > div:nth-child(2)
+    {
+        padding: 10px;
+    }
+    .login-register .container > .row > div:nth-child(1) .row > div
+    {
+        padding: 0px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .login-register .login-user-icon
+    {
+        top: 35%;
+        left: 8%
+    }
+    .login-register .login-password-icon
+    {
+        top: 52%;
+        left: 8%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .login-register .container > .row > div:nth-child(1) .row > div
+    {
+        padding: 0px;
+        text-align: center;
+    }
+}
+/*********** ENd login-register *************/
+/*********** End login and register page *************/
+
+/****************** start order page ********************/
+/*********** starting order-desktop *************/
+.order-desktop
+{
+    background-image: url(../images/main-background.png);
+    padding: 50px 0px;
+    position: relative;
+}
+.order-desktop .container
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 15px;
+    padding: 70px 40px;
+}
+.order-desktop .container > h3
+{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    background-image: url(../images/main-background.png);
+    width: fit-content;
+    padding: 0px 5px;
+}
+.order-desktop .container > div:nth-of-type(1)
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.order-desktop .container > div:nth-of-type(1) img
+{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.order-desktop .container > div:nth-of-type(1) h4
+{
+    
+}
+.order-desktop .container .selected-product
+{
+    text-align: center;
+}
+.order-desktop .container .selected-product > div
+{
+    
+}
+.order-desktop .container .selected-product .items
+{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #b5b2b2;
+    padding: 10px 0px;
+}
+.order-desktop .container .selected-product .items > div
+{
+    font-size: 18px;
+    font-weight: bold;   
+}
+.order-desktop .container .selected-product .theproduct
+{
+    margin-bottom: 50px;
+}
+.order-desktop .container .selected-product .theproduct > div
+{
+    
+}
+.order-desktop .container .selected-product .theproduct > div img
+{
+    width: 100%;
+}
+.order-desktop .container .selected-product .theproduct .remove,
+.order-desktop .container .selected-product .theproduct .buy
+{
+    border: none;
+    width: 180px;
+    padding: 7px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+.order-desktop .container .selected-product .theproduct .remove
+{
+    background-color: #ddd;
+    color: #000;
+}
+.order-desktop .container .selected-product .theproduct .remove:hover
+{
+    background-color: #2788a2;
+    color: #fff;
+}
+.order-desktop .container .selected-product .theproduct .buy
+{
+    background-color: #2788a2;
+    color: #fff;
+}
+.order-desktop .container .selected-product .theproduct .buy:hover
+{
+    background-color: #ddd;
+    color: #000;
+}
+@media (max-width: 576px)
+{
+    .order-desktop
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .order-desktop
+    {
+        display: none;
+    }
+}
+/*
+
+@media (min-width: 769px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)*/
+/*********** End order-desktop *************/
+/***********  *************/
+/***********  *************/
+/*********** starting order-mobile *************/
+.order-mobile
+{
+    background-image: url(../images/main-background.png);
+    padding: 50px 0px;
+    position: relative;
+}
+.order-mobile .container
+{
+    border: 3px solid #d9d9d9;
+    border-radius: 15px;
+    padding: 70px 40px;
+}
+.order-mobile .container > h3
+{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    background-image: url(../images/main-background.png);
+    width: fit-content;
+    padding: 0px 5px;
+}
+.order-mobile .container > div:nth-of-type(1)
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.order-mobile .container > div:nth-of-type(1) img
+{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.order-mobile .container > div:nth-of-type(1) h4
+{
+    font-size: 18px;
+}
+.order-mobile .selected-product
+{
+    
+}
+.order-mobile .selected-product .row
+{
+    margin-bottom: 20px;
+}
+.order-mobile .selected-product .row > div
+{
+    
+}
+.order-mobile .selected-product .row > div img
+{
+    width: 100%;
+}
+.order-mobile .selected-product .row > div:nth-child(1)
+{
+    font-size: 18px;
+    font-weight: bold;
+    border-right: 1px solid;
+}
+.order-mobile .selected-product .row > div:nth-child(2)
+{
+    
+}
+.order-mobile .container .remove,
+.order-mobile .container .buy
+{
+    border: none;
+    width: 100%;
+    padding: 7px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+.order-mobile .container .remove
+{
+    background-color: #ddd;
+    color: #000;
+}
+.order-mobile .container .remove:hover
+{
+    background-color: #2788a2;
+    color: #fff;
+}
+.order-mobile .container .buy
+{
+    background-color: #2788a2;
+    color: #fff;
+}
+.order-mobile .container .buy:hover
+{
+    background-color: #ddd;
+    color: #000;
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .order-mobile
+    {
+        display: none;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .order-mobile
+    {
+        display: none;
+    }
+}
+/*@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+*/
+/*********** End order-mobile *************/
+/****************** End order page ********************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/*********** starting button-top *************/
+#button-top
+{
+    background-color: #d7356d;
+    background-color: #d69e2d;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0.8;
+}
+#button-top:hover i
+{
+    opacity: 0.5;
+}
+/***********  End button-top*************/
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 340px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+@media (min-width: 1370px)
+{
+    .container
+    {
+        width: 1350px;
+    }
+}
+/******* End @media *********/
